@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Usage"
+date:   2014-03-01 19:53:19
+categories: 0.0.1
+---
+
+With Princess, you have two options for usage:
+
+1. The entire library.
+2. Individual modules.
+
+Both allow for easy customization and require you to include the Normalize library.
+
+To read more about customization, go here: [Customizations]({% post_url 2014-03-01-customizations %})
+
+## Downloading
+
+To download Princess, clone the repository from Git or grab the zip here.
+
+Select the files you want to use (see below) and store them in your `css` folder.
+
+## Full library
+
+You only have to require two files for the full Princess library.
+
+{% highlight html %}
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/princess.css">
+{% endhighlight %}
+
+If you've done any customizations to the variables, colors, or inside of `custom.scss`, these will be included.
+
+## Individual modules
+
+Princess is comprised of numerous modules. 
