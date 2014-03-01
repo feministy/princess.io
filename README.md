@@ -2,6 +2,8 @@
 
 A lightweight, extendable CSS library built with Sass and Normalize that's blissfully easy to customize.
 
+Princess is inspired by [Pure](http://purecss.io/)'s simplicity and [Blueprint](http://compass-style.org/reference/blueprint/)'s flexibility.
+
 ## What it is not
 
 * A responsive grid
