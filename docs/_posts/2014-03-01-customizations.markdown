@@ -3,6 +3,7 @@ layout: post
 title:  "Customizations"
 date:   2014-03-01 19:53:19
 categories: 0.0.1
+tags: customizations
 ---
 
 There are two ways to customize Princess:

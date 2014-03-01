@@ -3,6 +3,7 @@ layout: post
 title:  "Usage"
 date:   2014-03-01 19:53:19
 categories: 0.0.1
+tags: core
 ---
 
 With Princess, you have two options for usage:
