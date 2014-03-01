@@ -1,7 +1,7 @@
 @import "var";
 @import "colors";
 
-body {
+body, p {
   font-family: $font;
   font-size: #{$fontSize}em;
   font-weight: $fontWeight;
@@ -10,35 +10,42 @@ body {
 }
 
 // Primary text elements
-p
-em, i
-strong, bold
-blockquote
-abbr
+em, i {
+  font-style: italic;
+}
+
+
+strong, bold {
+  font-weight: #{$fontWeight*2}em
+}
+
+
+// blockquote
+// abbr
 
 // Headings
-h1, h2, h3, h4, h5, h6 
+//h1, h2, h3, h4, h5, h6 
 
 // Lists
-ul, li
-ol, li
-dt, dd
+//ul, li
+//ol, li
+//dt, dd
 
 // Misc inline elements
-cite
-code
-del
-dfn
-img
-ins
-kbd
-mark
-q
-s
-samp
-small
-span
-sub
-sup
-u
-var
+//cite
+//code
+//del
+//dfn
+//img
+//ins
+//kbd
+//mark
+//q
+//s
+//samp
+//small
+//span
+//sub
+//sup
+//u
+//var
