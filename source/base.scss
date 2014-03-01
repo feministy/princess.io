@@ -1,0 +1,10 @@
+@import "var";
+@import "colors";
+
+body {
+  font-family: $font;
+  font-size: #{$fontSize}em;
+  font-weight: $fontWeight;
+  line-height: #{$lineHeight}em;
+  color: $text;
+}

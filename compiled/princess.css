@@ -1,0 +1,13 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.25em;
+  color: #454445; }
+
+a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
