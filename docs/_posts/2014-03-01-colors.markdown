@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Colors"
+date:   2014-03-01 19:53:19
+categories: 0.0.1
+tags: variables
+---
+
+By default, Princess uses 6 color variables.
+
+## $text
+
+## $primary
+
+## $secondary
+
+## $accent
+
+## $alert
+
+## $cream
