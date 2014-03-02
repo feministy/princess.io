@@ -12,62 +12,74 @@ The Base module styles all of the elements overriden in Normalize.
 
 ---
 
-# Global font styles
+## Global font styles
 
 Unless overridden by a more specific element, all `p` tags and
 individual elements inside of `body` will render with Helvetica in size
-1.1em with a line-spacing of 1.25em in a font weight of 400 and the hex
+1.1em with a line-spacing of 1.5em in a font weight of 400 and the hex
 color #454445.
 
 ---
 
-# Headings
+## Links
+
+Links are styled using the `$primary` and `$secondary` color variables.
+For more about colors, see [Colors]({% post_url 2014-03-01-colors %}).
+
+[I am a link to /!](/)
+
+---
+
+## Headings
 
 If you chanage the base font size, (`$fontSize`), headings will adjust
 proportionally.
 
-The `h2`, `h3` elements include 10px of padding along the top and
-bottom.
+All heading elements have some padding along the top and bottom. `h1`
+has the most and it continues to scale down with the element size. If
+you change the base padding (`$padding`), this will impact all heading
+elements proportionally.
+
+Placeholder text has been inserted below the headings to illustrate
+padding.
 
 # Heading 1
 
-Font weight 2x global, font size 2.5x global, 20px of padding along the top and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ## Heading 2
 
-Font size 2x global, 10px padding along top and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ### Heading 3
 
-Font size 1.6x global, 10px padding along top and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 #### Heading 4
 
-Font size 1.3x global, 10px padding along top and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ##### Heading 5
 
-Font weight 2x global, font size same as global, 10px padding along top
-and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ###### Heading 6
 
-Font weight 2x global, font size 80% of global, 10px padding along top
-and bottom.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ---
 
-# Lists
+## Lists
 
-## Unordered
+### Unordered
 
-## Ordered
+### Ordered
 
-## Definition
+### Definition
 
 ---
 
-# Images
+## Images
 
 By default, all images are styled with no border, padding, or margin.
 
@@ -75,9 +87,9 @@ For additional information on image helpers, see [Image]({% post_url 2014-03-01-
 
 ---
 
-# Inline elements
+## Inline elements
 
-## em
+### em
 
 `em` and `i` (deprecated) are styled in the same manner: italicized with
 a slightly lighter font weight than the global style.
@@ -86,7 +98,7 @@ a slightly lighter font weight than the global style.
 
 <i>Hello, I am a deprecated i element.</i>
 
-## strong
+### strong
 
 `strong` and `b` (deprecated) are both heavier than global text (1.5x).
 
@@ -94,42 +106,42 @@ a slightly lighter font weight than the global style.
 
 <b>Hello, I am a b element.</b>
 
-## abbr
+### abbr
 
 Abbreviation elements have a very subtle bottom border. So delicate! 
 
 <abbr title="Taco Parties">TP</abbr>: an essential part of everyday life.
 
-## blockquote
+### blockquote
 
-## cite
+### cite
 
-## code
+### code
 
-## del
+### del
 
-## dfn
+### dfn
 
-## ins
+### ins
 
-## kbd
+### kbd
 
-## mark
+### mark
 
-## q
+### q
 
-## s
+### s
 
-## samp
+### samp
 
-## small
+### small
 
-## span
+### span
 
-## sub
+### sub
 
-## sup
+### sup
 
-## u
+### u
 
-## var
+### var
