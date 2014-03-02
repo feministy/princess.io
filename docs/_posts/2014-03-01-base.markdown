@@ -6,4 +6,130 @@ categories: 0.0.1
 tags: modules
 ---
 
-Base is the foundation of Princess and is a core component of the library. You can't use Princess without the Base module.
+Base is the foundation of Princess and is a core component of the library. You can't use Princess without the Base module. The Princess documentation is styled using Princess.
+
+The Base module styles all of the elements overriden in Normalize.
+
+---
+
+# Global font styles
+
+Unless overridden by a more specific element, all `p` tags and
+individual elements inside of `body` will render with Helvetica in size
+1.1em with a line-spacing of 1.25em in a font weight of 400 and the hex
+color #454445.
+
+---
+
+# Headings
+
+If you chanage the base font size, (`$fontSize`), headings will adjust
+proportionally.
+
+The `h2`, `h3` elements include 10px of padding along the top and
+bottom.
+
+# Heading 1
+
+Font weight 2x global, font size 2.5x global, 20px of padding along the top and bottom.
+
+## Heading 2
+
+Font size 2x global, 10px padding along top and bottom.
+
+### Heading 3
+
+Font size 1.6x global, 10px padding along top and bottom.
+
+#### Heading 4
+
+Font size 1.3x global, 10px padding along top and bottom.
+
+##### Heading 5
+
+Font weight 2x global, font size same as global, 10px padding along top
+and bottom.
+
+###### Heading 6
+
+Font weight 2x global, font size 80% of global, 10px padding along top
+and bottom.
+
+---
+
+# Lists
+
+## Unordered
+
+## Ordered
+
+## Definition
+
+---
+
+# Images
+
+By default, all images are styled with no border, padding, or margin.
+
+For additional information on image helpers, see [Image]({% post_url 2014-03-01-images %})
+
+---
+
+# Inline elements
+
+## em
+
+`em` and `i` (deprecated) are styled in the same manner: italicized with
+a slightly lighter font weight than the global style.
+
+<em>Hello, I am an em element.</em>
+
+<i>Hello, I am a deprecated i element.</i>
+
+## strong
+
+`strong` and `b` (deprecated) are both heavier than global text (1.5x).
+
+<strong>Hello, I am a strong element.</strong>
+
+<b>Hello, I am a b element.</b>
+
+## abbr
+
+Abbreviation elements have a very subtle bottom border. So delicate! 
+
+<abbr title="Taco Parties">TP</abbr>: an essential part of everyday life.
+
+## blockquote
+
+## cite
+
+## code
+
+## del
+
+## dfn
+
+## ins
+
+## kbd
+
+## mark
+
+## q
+
+## s
+
+## samp
+
+## small
+
+## span
+
+## sub
+
+## sup
+
+## u
+
+## var
