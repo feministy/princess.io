@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Images"
+date:   2014-03-01 19:53:19
+categories: 0.0.1
+tags: modules
+---
+
+Images have default styling included in [Base]({% post_url 2014-03-01-base %}). This module extends on those styles and provides additional helper classes for images.
