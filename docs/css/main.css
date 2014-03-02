@@ -3,6 +3,14 @@
 }
 
 #container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+
+.script {
+  font-family: 'swingdancer', 'Helvetica', sans-serif;
+  font-size: 6em;
+  text-align: center;
+  margin: 40px 0px;
 }

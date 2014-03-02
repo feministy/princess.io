@@ -10,18 +10,32 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/princess/normalize.css">
         <link rel="stylesheet" href="/princess/princess.css">
+        <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
       <div id="wrapper">
         <div id="container">
-          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          <a class="extra" href="/">home</a>
-          {{ content }}
+          <header>
+            <h1 class="script">{{ site.name }}</h1>
+            <h5>A lightweight, extendable CSS library built with Sass and
+            Normalize that's blissfully easy to customize.</h5>
+          </header>
+
+          <section>
+            <a class="extra" href="/">home</a>
+          </section>
+
+          <section>
+            {{ content }}
+          </section>
         </div>
       </div>
     </body>
+    <script type="text/javascript"
+      src="//use.typekit.net/gjo1zvh.js"></script>
+    <script
+      type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </html>
