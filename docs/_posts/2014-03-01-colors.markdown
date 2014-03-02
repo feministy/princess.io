@@ -6,16 +6,26 @@ categories: 0.0.1
 tags: variables
 ---
 
-By default, Princess uses 6 color variables.
+By default, Princess uses five main colors:
+
+* $text
+* $primary
+* $accent
+* $alert
+* $gray
+
+Each of these colors has variations that lighten or darken the shade.
 
 ## $text
 
-## $primary
+`$textLight`
 
-## $secondary
+`$textLighest`
+
+## $primary
 
 ## $accent
 
 ## $alert
 
-## $cream
+## $gray
