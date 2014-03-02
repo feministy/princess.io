@@ -1,8 +1,8 @@
 $text: rgba(69, 68, 69, 1);
 
 // Paired dark/light teal
-$primary: rgba(0, 88, 95, 1);
-$seconday: rgba(0, 147, 147, 1);
+$primary: rgba(0, 147, 147, 1);
+$secondary: lighten($primary, 10%); 
 
 // Paired orange/red
 $accent: rgba(255, 88, 40, 1); 
