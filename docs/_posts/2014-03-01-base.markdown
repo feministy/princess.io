@@ -73,9 +73,42 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### Unordered
 
+Extra padding and margins have been added to unordered lists.
+
+* I am a list item
+* I am another list item
+ - I am a nested list item
+* Final list item
+
 ### Ordered
 
+Extra padding and margins have been added to ordered lists.
+
+1. One banana
+2. Two tacos
+3. Three oranges
+4. Four apples
+
 ### Definition
+
+Definition lists have their margins and padding adjusted. A slight
+border has been added to the definition element and the font sized
+reduced.
+
+<dl>
+  <dt>Term</dt>
+  <dd>Definition</dd>
+  <dt>Another term!</dt>
+  <dd>More definitions</dd>
+  <dt>A very very very long definition and term pair</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+  aliquip ex ea commodo consequat. Duis aute irure dolor in
+  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+  culpa qui officia deserunt mollit anim id est laborum.</dd>
+</dl>
 
 ---
 
@@ -100,7 +133,7 @@ a slightly lighter font weight than the global style.
 
 ### strong
 
-`strong` and `b` (deprecated) are both heavier than global text (1.5x).
+`strong` and `b` (deprecated) are both heavier than global text (1.8x).
 
 <strong>Hello, I am a strong element.</strong>
 
@@ -108,40 +141,130 @@ a slightly lighter font weight than the global style.
 
 ### abbr
 
-Abbreviation elements have a very subtle bottom border. So delicate! 
+Abbreviation elements have a very subtle bottom border. So delicate!
 
 <abbr title="Taco Parties">TP</abbr>: an essential part of everyday life.
 
+### address
+
+`address` elements are a slightly lighter color than the global style,
+and are italicized.
+
+<address>
+Taco Town<br>
+10 Main St.<br>
+Happy Land, USA
+</address>
+
 ### blockquote
+
+Blockquotes include a border and additional padding for offset, and
+italics for emphasis.
+
+<blockquote>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</blockquote>
 
 ### cite
 
+Cite elements (`cite`) are a smaller font size than the global and are
+italicized.
+
+<cite>This is a cite element.</cite>
+
 ### code
+
+Code elements have a background color set using the `$gray` variable and
+a small amount of padding for emphasis. The font is set with the
+`$fontMono` variable. The padding does not adjust the default line
+height.
+
+<code>This is a code element.</code>
 
 ### del
 
+`del` elements are a lighter color than the global style.
+
+<del>This is del</del>
+
 ### dfn
+
+`dfn` elements are a lighter font weight than the global style.
+
+<dfn>This is dfn</dfn>
 
 ### ins
 
+`ins` elements are underlined (from Normalize).
+
+<ins>This is ins</ins>
+
 ### kbd
+
+`kbd` uses the font set with `$fontMono`.
+
+<kbd>This is kbd</kbd>
 
 ### mark
 
+`mark` uses `$accentLight` for the background color, and has padding of
+5px. This padding does not interrupt the line height.
+
+<mark>This is mark</mark>
+
 ### q
+
+`q` elements have quotation marks added before and after them. Quotation
+marks are styled using `$fontAccent` and render heavier, slightly
+larger, and with a small amount of padding. The text inside of the
+CSS-created quotation marks is italicized.
+
+<q>This is q</q>
 
 ### s
 
+`s` has the same style elements as `del`.
+
+<s>This is s</s>
+
 ### samp
+
+`samp` has the same style elements as `kbd`.
+
+<samp>This is samp</samp>
 
 ### small
 
+`small` elements are (surprise!) smaller.
+
+<small>This is small</small>
+
 ### span
+
+`span` elements have no default style.
+
+<span>This is a span - totally plain!</span>
 
 ### sub
 
+`sub` is slightly lighter than the global style.
+
+<sub>This is sub</sub> Regular text
+
 ### sup
+
+`sub` is slightly lighter than the global style.
+
+<sup>This is sup</sup> Regular text
 
 ### u
 
+`u` has no additional styles on top of Normalize.
+
+<u>This is u</u>
+
 ### var
+
+`var` is presented in the `$fontMono` font.
+
+<var>This is var</var>

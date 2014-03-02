@@ -17,7 +17,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: $secondary;
+  color: $primaryLight;
 }
 
 // Primary text elements
@@ -27,7 +27,7 @@ em, i {
 }
 
 strong, b {
-  font-weight: $fontWeight*1.5;
+  font-weight: $fontWeight*1.8;
 }
 
 // Headings
@@ -78,31 +78,93 @@ h6 {
 }
 
 // Lists
-//ul, li
-//ol, li
-//dt, dd
-
-abbr {
-  border-bottom: 1px dotted lighten($text, 50%);
+ul, ol {
+  li {
+    @include dualMargin(0, $margin*2);
+    @include dualPadding($padding/4, 0);
+  }
 }
 
-// blockquote
+dl {
+  dt {
+    font-weight: $fontWeight*1.75;
+    @include dualPadding(0, $padding);
+    @include soloMargin(0);
+  }
 
-// Misc inline elements
-//cite
-//code
-//del
-//dfn
-//img
-//ins
-//kbd
-//mark
-//q
-//s
-//samp
-//small
-//span
-//sub
-//sup
-//u
-//var
+  dd {
+    border-left: 1px dotted $textLightest;
+    @include textAlign(justify);
+    @include fontSize($fontSize*0.9);
+    @include dualPadding(0, $padding/2);
+    @include fullMargin(0, $padding*1.5, $padding, $padding*1.5);
+  }
+}
+
+// Inline elements
+abbr, abbr[title]  {
+  border-bottom: 1px dotted $textLightest;
+}
+
+address {
+  color: $textLight;
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 5px solid $primaryLight;
+  font-style: italic;
+  @include soloPadding($padding);
+}
+
+cite {
+  @include fontSize($fontSize*0.8);
+}
+
+code {
+  background-color: $gray;
+  @include soloPadding($padding/4);
+}
+
+del, s {
+  color: $textLight;
+}
+
+dfn {
+  font-weight: $fontWeight - 100;
+}
+
+kbd, samp {
+  font-family: $fontMono;
+}
+
+mark {
+  background-color: $accentLight;
+  @include soloPadding($padding/4);
+}
+
+q:before, q:after {
+  content: '"';
+  font-family: $fontAccent;
+  font-weight: $fontWeight*2;
+  font-style: italic;
+  @include fontSize($fontSize*1.1);
+  @include dualPadding(0, $padding/4);
+}
+
+q {
+  font-style: italic;
+}
+
+small {
+  @include fontSize($fontSize*0.7);
+}
+
+sup, sub {
+  color: $textLight;
+}
+
+var {
+  font-family: $fontMono;
+  font-style: normal;
+}
