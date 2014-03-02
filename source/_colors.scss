@@ -1,12 +1,17 @@
 $text: rgba(69, 68, 69, 1);
+$textLight: lighten($text, 30%);
+$textLightest: lighten($text, 50%);
 
 // Paired dark/light teal
 $primary: rgba(0, 147, 147, 1);
-$secondary: lighten($primary, 10%); 
+$primaryLight: lighten($primary, 10%);
 
 // Paired orange/red
-$accent: rgba(255, 88, 40, 1); 
+$accent: rgba(249, 59, 63, 1);
+$accentLight: lighten($accent, 10%);
+
+// Alert (vibrant red)
 $alert: rgba(255, 5, 40, 1);
 
 // White alternative
-$cream: rgba(245, 243, 220, 1);
+$gray: rgba(243, 243, 243, 1);
