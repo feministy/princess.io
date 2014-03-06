@@ -18,10 +18,6 @@ Each of these colors has variations that lighten or darken the shade.
 
 ## $text
 
-`$textLight`
-
-`$textLighest`
-
 ## $primary
 
 ## $accent
