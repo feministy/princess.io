@@ -18,6 +18,9 @@ section {
 
 .script {
   font-family: 'swingdancer', 'Helvetica', sans-serif;
+}
+
+h1.script {
   font-size: 6em;
   text-align: center;
   margin: 40px 0px;
