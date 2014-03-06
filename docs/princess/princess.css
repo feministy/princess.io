@@ -521,9 +521,8 @@ var {
 .highlight {
   padding: 20px;
   margin: 20px 0px;
-  width: 100%;
-  background-color: #f3f3f3;
-  border: 1px solid silver; }
+  border: 1px solid silver;
+  background-color: #f3f3f3; }
 
 pre {
   margin: 0px; }
