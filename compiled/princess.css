@@ -495,9 +495,14 @@ var {
   font-style: normal; }
 
 .prncs-alert {
-  padding: 5px;
-  color: #f93b3f;
+  color: #ff0528;
   font-weight: 800; }
+
+.prncs-alert-block {
+  padding: 5px;
+  color: #ff0528;
+  background-color: #ffd1d7;
+  display: block; }
 
 a {
   -webkit-transition: all 500ms;
