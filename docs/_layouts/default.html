@@ -18,12 +18,37 @@
       <div id="wrapper">
         <div id="container">
           <header>
-            <h1 class="script">{{ site.name }}</h1>
+            <a href="/"><h1 class="script">{{ site.name }}</h1></a>
           </header>
 
-          <section>
-            <a class="extra" href="/">home</a>
-          </section>
+          <nav>
+            <ul class="prncs-menu-vertical">
+              <li class="prncs-menu-leader">Core</li>
+              {% for post in site.tags.core %}
+                {% include index_posts.html %}
+              {% endfor %}
+
+              <li class="prncs-menu-leader">Variables</li>
+              {% for post in site.tags.variables %}
+                {% include index_posts.html %}
+              {% endfor %}
+
+              <li class="prncs-menu-leader">Customizations</li>
+              {% for post in site.tags.customizations %}
+                {% include index_posts.html %}
+              {% endfor %}
+
+              <li class="prncs-menu-leader">Modules</li>
+              {% for post in site.tags.modules %}
+                {% include index_posts.html %}
+              {% endfor %}
+
+              <li class="prncs-menu-leader">Components</li>
+              {% for post in site.tags.components %}
+                {% include index_posts.html %}
+              {% endfor %}
+            </ul>
+          </nav>
 
           <section>
             {{ content }}
