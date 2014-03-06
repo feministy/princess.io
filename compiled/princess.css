@@ -494,6 +494,10 @@ var {
   font-family: "Source Code Pro", "Courier New", monospace;
   font-style: normal; }
 
+/**
+Princess
+Module: alerts
+**/
 .prncs-alert {
   color: #ff0528;
   font-weight: 800; }
@@ -504,6 +508,22 @@ var {
   background-color: #ffd1d7;
   display: block; }
 
+/**
+Princess
+Module: animations
+**/
+/**
+Princess
+Module: buttons
+**/
+/**
+Princess
+Module: forms
+**/
+/**
+Princess
+Module: images
+**/
 .prncs-img-rounded {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -518,6 +538,10 @@ var {
   -ms-border-radius: 100%;
   border-radius: 100%; }
 
+/**
+Princess
+Module: jekyll
+**/
 .highlight {
   padding: 20px;
   margin: 20px 0px;
@@ -527,6 +551,18 @@ var {
 pre {
   margin: 0px; }
 
+/**
+Princess
+Module: tables
+**/
+/**
+Princess
+Module: transformations
+**/
+/**
+Princess
+Module: transitions
+**/
 a {
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
