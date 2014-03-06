@@ -1,16 +1,44 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Princess - Easy to customize Sass library.
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-      &raquo; {{ post.tags | array_to_sentence_string }}
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<h2>Core</h2>
+
+<ul>
+  {% for post in site.tags.core %}
+    {% include index_posts.html %}
+  {% endfor %}
+</ul>
+
+<h2>Variables</h2>
+
+<ul>
+  {% for post in site.tags.variables %}
+    {% include index_posts.html %}
+  {% endfor %}
+</ul>
+
+<h2>Customizations</h2>
+
+<ul>
+  {% for post in site.tags.customizations %}
+    {% include index_posts.html %}
+  {% endfor %}
+</ul>
+
+<h2>Modules</h2>
+
+<ul>
+  {% for post in site.tags.modules %}
+    {% include index_posts.html %}
+  {% endfor %}
+</ul>
+
+<h2>Components</h2>
+
+<ul>
+  {% for post in site.tags.components %}
+    {% include index_posts.html %}
+  {% endfor %}
+</ul>
