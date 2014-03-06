@@ -10,7 +10,6 @@ This module includes classes for inline and block alerts. Colors come from the `
 
 ## Inline alert
 
-
 {% highlight html %}
 <span class="prncs-alert-inline">Alert alert!</span> That is some important stuff.
 {% endhighlight %}
