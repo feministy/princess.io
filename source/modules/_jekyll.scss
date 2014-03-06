@@ -8,6 +8,7 @@ Module: jekyll
   @include soloPadding($padding);
   @include dualMargin($margin, 0);
   @include borderSkinny($grayDark);
+  @include fontSize($fontSize*0.8);
   background-color: $gray;
 }
 
