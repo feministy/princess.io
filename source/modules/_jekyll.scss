@@ -1,0 +1,11 @@
+.highlight {
+  @include soloPadding($padding);
+  @include dualMargin($margin, 0);
+  width: 100%;
+  background-color: $gray;
+  border: 1px solid $grayDark;
+}
+
+pre {
+  @include soloMargin(0);
+}

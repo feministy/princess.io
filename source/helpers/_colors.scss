@@ -21,3 +21,4 @@ $alertLightest: lighten($alert, 40%);
 
 // White alternative
 $gray: rgba(243, 243, 243, 1);
+$grayDark: darken($gray, 20%);
