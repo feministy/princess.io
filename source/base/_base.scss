@@ -7,6 +7,7 @@
 @import "../helpers/typography";
 
 // Mixins
+@import "../mixins/borders";
 @import "../mixins/buttons";
 @import "../mixins/transitions";
 
@@ -117,7 +118,7 @@ dl {
   }
 
   dd {
-    border-left: 1px dotted $textLightest;
+    @include borderSkinnyPosition($gray, left);
     @include textAlign(justify);
     @include fontSize($fontSize*0.9);
     @include dualPadding(0, $padding/2);
@@ -136,8 +137,8 @@ address {
 }
 
 blockquote {
-  border-left: 5px solid $primaryLight;
   font-style: italic;
+  @include borderWidePosition($primaryLight, left);
   @include soloPadding($padding);
 }
 
