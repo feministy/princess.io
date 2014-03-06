@@ -8,13 +8,11 @@ tags: variables list
 
 Princess includes default values for all styles that can be manipulated from two main files: `source/helpers/_var.scss` or `source/helpers/_colors.scss`.
 
-This page deals with `source/helpers/_var.scss`, which covers everything except for colors. For information on changing colors, see [Colors]({% post_url 2014-03-01-colors %}).
+This page deals with `source/helpers/_var.scss`, which covers everything except for colors.
 
 ## Defaults
 
 ### Font families
-
-For information on using @font-face, see [@font-face]({% post_url 2014-03-01-font-face %}).
 
 {% highlight css %}
 $font: 'Helvetica', 'Arial', sans-serif;
