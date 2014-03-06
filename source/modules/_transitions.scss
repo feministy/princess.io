@@ -1,4 +1,4 @@
-@import "../helpers/mixins/transitions";
+@import "../mixins/transitions";
 
 a {
   @include transitionAll($transition);
