@@ -1,9 +1,14 @@
 /** ====================================== **/
 
+// Variables
 @import "../helpers/var";
 @import "../helpers/colors";
-@import "../helpers/mixins/margin_padding";
-@import "../helpers/mixins/typography";
+
+// Mixins
+@import "../mixins/buttons";
+@import "../mixins/margin_padding";
+@import "../mixins/transitions";
+@import "../mixins/typography";
 
 /**
 
