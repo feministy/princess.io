@@ -16,6 +16,8 @@ $accentDarkest: darken($accent, 20%);
 
 // Alert (vibrant red)
 $alert: rgba(255, 5, 40, 1);
+$alertLight: lighten($alert, 10%);
+$alertLightest: lighten($alert, 40%);
 
 // White alternative
 $gray: rgba(243, 243, 243, 1);
