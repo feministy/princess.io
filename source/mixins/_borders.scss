@@ -9,3 +9,7 @@
 @mixin borderSkinny($color) {
   border: 1px solid $color;
 }
+
+@mixin borderSkinnyPosition($color, $pos) {
+  border-#{$pos}: 1px solid $color;
+}

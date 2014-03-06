@@ -1,0 +1,126 @@
+/**
+Princess
+Component: menus
+**/
+
+// Mixins for this file
+@mixin menuLinkDefault {
+  @include dualPadding($padding/2, $padding);
+  @include transitionAll($transition);
+  color: $grayDarkest;
+  font-weight: $fontWeight;
+}
+
+@mixin menuLinkDefaultHover {
+  background-color: $gray;
+}
+
+
+
+// Horizontal menu
+
+ul.prncs-menu-horizontal {
+  @include soloPadding(0);
+  li {
+    @include fullMargin(0, $padding/4, 0, 0);
+    @include fontSize($fontSize*0.8);
+    display: inline;
+
+    // Default link styles
+    a { @include menuLinkDefault; }
+    a:hover { @include menuLinkDefaultHover; }
+
+    // Overrides for helper classes with special link styles
+    &.prncs-menu-leader {
+      a {
+        font-weight: $fontWeight * 2;
+        color: $text;
+      }
+      a:hover {
+        background-color: $background;
+      }
+    }
+    &.prncs-menu-selected {
+      a {
+        color: $text;
+      }
+    }
+    &.prncs-menu-disabled {
+      a {
+        color: $grayDark;
+      }
+      a:hover {
+        background-color: $background;
+      }
+    }
+  }
+}
+
+// Veritcal menu
+
+ul.prncs-menu-vertical {
+    @include soloPadding(0);
+    @include borderSkinny($gray);
+    width: #{$verticalMenuWidth}px;
+  li {
+    @include soloMargin(0);
+    @include soloPadding(0);
+    @include fontSize($fontSize*0.8);
+    width: 100%;
+    list-style-type: none;
+
+    // Default link styles
+    a {
+      @include menuLinkDefault;
+      display: block;
+    }
+    a:hover { @include menuLinkDefaultHover; }
+
+    // Overrides for helper classes with special link styles
+    &.prncs-menu-leader, &.prncs-menu-leader-sub {
+      @include borderSkinnyPosition($gray, bottom);
+      @include dualPadding($padding/2, $padding);
+      width: #{$verticalMenuWidth - $padding*2}px;
+    }
+    &.prncs-menu-leader {
+      font-weight: $fontWeight*2;
+    }
+  }
+}
+
+// Paginator
+
+ul.prncs-menu-paginator {
+  @include soloPadding(0);
+  li {
+    @include soloMargin(0);
+    @include fontSize($fontSize*0.8);
+    display: inline;
+
+    // Default link styles
+    a {
+      @include dualPadding($padding/1.5, $padding);
+      @include transitionAll($transition);
+      @include dualMargin(0, -3);
+      @include borderSkinny($gray);
+      color: $grayDarkest;
+      font-weight: $fontWeight;
+    }
+    a:hover {
+      background: $gray;
+    }
+
+    // Overrides for helper classes with special link styles
+    &.prncs-menu-paginator-arrow, &.prncs-menu-selected {
+      a {
+        font-weight: $fontWeight*2;
+      }
+    }
+
+    &.prncs-menu-selected {
+      a {
+        color: $text;
+      }
+    }
+  }
+}

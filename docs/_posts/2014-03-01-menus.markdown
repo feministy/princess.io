@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Menus"
+date:   2014-03-01 19:53:19
+categories: 0.0.1
+tags: components
+---
+
+Unless specifically stated, all Princess menu components will only work with unordered lists (`ul`).
+
+## Horizontal menu
+
+Horizontal menus do not support nesting or dropdowns because Princess is a CSS library, not a JavaScript library.
+
+Helper classes for menu items (`li`) include:
+
+* `prncs-menu-leader`
+* `prncs-menu-selected`
+* `prncs-menu-disabled`
+
+Sample menu:
+
+<ul class="prncs-menu-horizontal">
+  <li class="prncs-menu-leader"><a href="#">Princess.io</a></li>
+  <li class="prncs-menu-selected"><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Documentation</a></li>
+  <li><a href="#">Contribute</a></li>
+  <li class="prncs-menu-disabled"><a href="#">Leave me alone</a></li>
+</ul>
+
+{% highlight html %}
+<ul class="prncs-menu-horizontal">
+  <li class="prncs-menu-leader"><a href="#">Princess.io</a></li>
+  <li class="prncs-menu-selected"><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Documentation</a></li>
+  <li><a href="#">Contribute</a></li>
+  <li class="prncs-menu-disabled"><a href="#">Leave me alone</a></li>
+</ul>
+{% endhighlight %}
+
+## Vertical menu
+
+Helper classes for menu items (`li`) include:
+
+* `prncs-menu-leader`
+* `prncs-menu-leader-sub`
+
+The width of this menu is customizable: change the value of `$verticalMenuWidth` to resize the menu.
+
+{% include alert_must_be_number.html %}
+
+Sample menu:
+
+<ul class="prncs-menu-vertical">
+  <li class="prncs-menu-leader">Princess.io</li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Documentation</a></li>
+  <li><a href="#">Contribute</a></li>
+  <li class="prncs-menu-leader-sub">Hello</li>
+  <li><a href="#">Taco party!</a></li>
+  <li><a href="#">Guacamole season</a></li>
+</ul>
+
+{% highlight html %}
+<ul class="prncs-menu-vertical">
+  <li class="prncs-menu-leader">Princess.io</li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Documentation</a></li>
+  <li><a href="#">Contribute</a></li>
+  <li class="prncs-menu-leader-sub">Hello</li>
+  <li><a href="#">Taco party!</a></li>
+  <li><a href="#">Guacamole season</a></li>
+</ul>
+{% endhighlight %}
+
+## Paginator
+
+Helper classes for menu items (`li`) include:
+
+* `prncs-menu-selected`
+* `prncs-menu-paginator-arrow`
+
+Sample menu:
+
+<ul class="prncs-menu-paginator">
+  <li class="prncs-menu-paginator-arrow"><a href="#">&laquo;</a></li>
+  <li><a href="#">1</a></li>
+  <li class="prncs-menu-selected"><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li class="prncs-menu-paginator-arrow"><a href="#">&raquo;</a></li>
+</ul>
+
+{% highlight html %}
+<ul class="prncs-menu-paginator">
+  <li class="prncs-menu-paginator-arrow"><a href="#">&laquo;</a></li>
+  <li><a href="#">1</a></li>
+  <li class="prncs-menu-selected"><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li class="prncs-menu-paginator-arrow"><a href="#">&raquo;</a></li>
+</ul>
+{% endhighlight %}
