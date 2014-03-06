@@ -3,14 +3,18 @@ Princess
 Module: alerts
 **/
 
+@import "../mixins/alerts";
+
 .prncs-alert {
   color: $alert;
   font-weight: $fontWeight * 2;
 }
 
 .prncs-alert-block {
-  @include soloPadding($padding/4);
-  color: $alert;
-  background-color: $alertLightest;
+  @include alertBackground;
   display: block;
+}
+
+.prncs-alert-inline {
+  @include alertBackground;
 }

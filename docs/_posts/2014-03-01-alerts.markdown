@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Alerts"
+date:   2014-03-01 19:53:19
+categories: 0.0.1
+tags: modules
+---
+
+This module includes classes for inline and block alerts. Colors come from the `$alert` variable (and its light/dark companions).
+
+## Inline alert
+
+
+{% highlight html %}
+<span class="prncs-alert-inline">Alert alert!</span> That is some important stuff.
+{% endhighlight %}
+
+<span class="prncs-alert-inline">Alert alert!</span> That is some important stuff.
+
+## Inline alert alternative
+
+{% highlight html %}
+<span class="prncs-alert">Alert alert!</span> That is some important stuff.
+{% endhighlight %}
+
+<span class="prncs-alert">Alert alert!</span> That is some important stuff.
+
+## Block alert
+
+*This alert doesn't play nicely with heading elements due to the padding.*
+
+This will turn any element into a block element. If it's already a block element, that's fine.
+
+{% highlight html %}
+<span class="prncs-alert-block">Alert alert!</span>
+{% endhighlight %}
+
+<span class="prncs-alert-block">Alert alert!</span>

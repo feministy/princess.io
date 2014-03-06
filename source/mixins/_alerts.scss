@@ -1,0 +1,5 @@
+@mixin alertBackground {
+  @include soloPadding($padding/4);
+  color: $alert;
+  background-color: $alertLightest;
+}

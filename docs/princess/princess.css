@@ -378,7 +378,12 @@ body, p {
 a, a:visited {
   color: #009393;
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 600;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -ms-transition: all 500ms;
+  transition: all 500ms; }
 
 a:hover {
   color: #00c6c6; }
@@ -494,6 +499,10 @@ var {
   font-family: "Source Code Pro", "Courier New", monospace;
   font-style: normal; }
 
+/**
+Princess
+Module: alerts
+**/
 .prncs-alert {
   color: #ff0528;
   font-weight: 800; }
@@ -504,6 +513,27 @@ var {
   background-color: #ffd1d7;
   display: block; }
 
+.prncs-alert-inline {
+  padding: 5px;
+  color: #ff0528;
+  background-color: #ffd1d7; }
+
+/**
+Princess
+Module: animations
+**/
+/**
+Princess
+Module: buttons
+**/
+/**
+Princess
+Module: forms
+**/
+/**
+Princess
+Module: images
+**/
 .prncs-img-rounded {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -518,6 +548,10 @@ var {
   -ms-border-radius: 100%;
   border-radius: 100%; }
 
+/**
+Princess
+Module: jekyll
+**/
 .highlight {
   padding: 20px;
   margin: 20px 0px;
@@ -527,9 +561,15 @@ var {
 pre {
   margin: 0px; }
 
-a {
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  -ms-transition: all 500ms;
-  transition: all 500ms; }
+/**
+Princess
+Module: tables
+**/
+/**
+Princess
+Module: transformations
+**/
+/**
+Princess
+Module: transitions
+**/
