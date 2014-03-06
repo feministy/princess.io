@@ -1,11 +1,11 @@
 .prncs-alert {
-  color: $accent;
+  color: $alert;
   font-weight: $fontWeight * 2;
 }
 
 .prncs-alert-block {
   @include soloPadding($padding/4);
-  color: $accentDarkest;
-  background-color: $accentLightest;
+  color: $alert;
+  background-color: $alertLightest;
   display: block;
 }
