@@ -16,7 +16,9 @@ Images have default styling included in [Base]({% post_url 2014-03-01-base %}). 
 
 <img src="/assets/kiwi.jpg" class="prncs-img-rounded" width="300px">
 
-### Circle
+## Circle
+
+*Requires a square image to form a circle.*
 
 {% highlight html %}
 <img src="/assets/kiwi.jpg" class="prncs-img-circle">
