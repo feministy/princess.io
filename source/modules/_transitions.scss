@@ -3,9 +3,3 @@ Princess
 Module: transitions
 **/
 
-
-@import "../mixins/transitions";
-
-a {
-  @include transitionAll($transition);
-}

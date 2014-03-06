@@ -36,6 +36,7 @@ a, a:visited {
   color: $primary;
   text-decoration: none;
   font-weight: $fontWeight*1.5;
+  @include transitionAll($transition);
 }
 
 a:hover {
