@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   @include fullPadding($padding*2, 0, $padding, 0);
-  @include fontSize($fontSize*2.5);
+  @include fontSize($fontSize*2.3);
   font-weight: $fontWeight*2;
 }
 
@@ -70,12 +70,12 @@ h2, h3 {
 }
 
 h2 {
-  @include fontSize($fontSize*2);
+  @include fontSize($fontSize*1.8);
   font-weight: $fontWeight;
 }
 
 h3 {
-  @include fontSize($fontSize*1.6);
+  @include fontSize($fontSize*1.5);
   font-weight: $fontWeight;
 }
 
@@ -84,7 +84,7 @@ h4, h5 {
 }
 
 h4 {
-  @include fontSize($fontSize*1.3);
+  @include fontSize($fontSize*1.2);
   font-weight: $fontWeight;
 }
 
