@@ -1,0 +1,9 @@
+@import "../mixins/borders";
+
+.prncs-img-rounded {
+  @include borderRadius;
+}
+
+.prncs-img-circle {
+  @include borderRadius(100%);
+}

@@ -1,0 +1,7 @@
+@mixin borderRadius($num:$borderRadius) {
+  -webkit-border-radius: $num;
+  -moz-border-radius: $num;
+  -o-border-radius: $num;
+  -ms-border-radius: $num;
+  border-radius: $num;
+}
