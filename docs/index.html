@@ -3,44 +3,82 @@ layout: default
 title: Princess - Easy to customize Sass library.
 ---
 
-<h5>A lightweight, extendable CSS library built with Sass and Normalize that's blissfully easy to customize.</h5>
+<h1>About Princess</h1>
 
-<h2>Core</h2>
+<p>
+  A lightweight, extendable CSS library built with Sass and Normalize that's blissfully easy to customize.
+</p>
 
-<ul>
-  {% for post in site.tags.core %}
-    {% include index_posts.html %}
-  {% endfor %}
-</ul>
+<p>
+  Princess is inspired by <a href="http://purecss.io">Pure's</a> simplicity and <a href="http://compass-style.org/reference/blueprint/">Blueprint's</a> flexibility.
+</p>
 
-<h2>Variables</h2>
+<p>
+  The idea behind Princess is that you receive a set of base styles of primary elements, along with modules that include classes for optional styling, all based on Normalize and two files containing variables. Princess is written in Sass for easy customization and can be used in whole or in parts.
+</p>
 
-<ul>
-  {% for post in site.tags.variables %}
-    {% include index_posts.html %}
-  {% endfor %}
-</ul>
+<p>
+  A lot of <em>me</em> has gone into Princess. I like whitespace, big fonts, and smooth CSS transitions. There's even a little module for improving code snippet highlighting in Jekyll! Princess was written because I wanted something I could use for all of my future projects that was already customized and styled to fit my needs. Because I love writing documentation, I decided to package it up for distribution.
+</p>
 
-<h2>Customizations</h2>
+<p>
+  The documentation for Princess is styled using Princess.
+</p>
 
-<ul>
-  {% for post in site.tags.customizations %}
-    {% include index_posts.html %}
-  {% endfor %}
-</ul>
 
-<h2>Modules</h2>
+<h2>What it is not</h2>
 
 <ul>
-  {% for post in site.tags.modules %}
-    {% include index_posts.html %}
-  {% endfor %}
+  <li>A responsive grid</li>
+  <li>Opinionated</li>
+  <li>Bloated</li>
+  <li>JavaScript</li>
 </ul>
 
-<h2>Components</h2>
+<h2>What it is</h2>
 
 <ul>
-  {% for post in site.tags.components %}
-    {% include index_posts.html %}
-  {% endfor %}
+  <li>Cross-browser friendly</li>
+  <li>Easy to customize</li>
+  <li>Easy to extend</li>
+  <li>Semantically named and organized</li>
+  <li>Modular</li>
 </ul>
+
+
+<h1>Quick start</h1>
+
+<p>
+  To download Princess, clone the repository from <a href="https://github.com/feministy/princess.io">Git</a>.
+</p>
+
+
+<p>
+  Copy the file <code>compiled/princess.css</code> into your desired directory, and include it in your HTML:
+</p>
+
+{% highlight html %}
+<link rel="stylesheet" href="princess.css">
+{% endhighlight %}
+
+<p>
+  Voila! You have the Normalize base and the full Princess library at your disposal.
+</p>
+
+<h2>Documentation</h2>
+
+<p>
+  The guides are organized according to which section of the Princess library each element belongs to.
+</p>
+
+<ul>
+  <li>Styles that are automatically applied to your content are included in the <strong>Core</strong> group.</li>
+  <li><strong>Variables</strong> includes the list of variables used in Princess.</li>
+  <li>To learn about customizing Princess or only using specific modules, browse the <strong>Customization</strong> docs.</li>
+  <li><strong>Modules</strong> are isolated to special classes that you have to call to use. Things like buttons, tables, and form elements live here.</li>
+  <li>Menus, headers, footers, and other layouts are covered in <strong>Components</strong>.</li>
+</ul>
+
+<p>
+  <em>Read the first item in each subsection.</em> It contains vital information about that items in that group, and the rest of the documentation assumes you've read it. Generally you're presented with a list first (Variable list, Module list, etc) or a guide to that section (usage, basics).
+</p>
