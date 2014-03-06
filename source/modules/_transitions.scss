@@ -1,0 +1,5 @@
+@import "../helpers/mixins/transitions";
+
+a {
+  @include transitionAll($transition);
+}
