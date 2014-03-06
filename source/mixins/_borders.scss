@@ -13,3 +13,7 @@
 @mixin borderSkinnyPosition($color, $pos) {
   border-#{$pos}: 1px solid $color;
 }
+
+@mixin borderWidePosition($color, $pos) {
+  border-#{$pos}: 5px solid $color;
+}
