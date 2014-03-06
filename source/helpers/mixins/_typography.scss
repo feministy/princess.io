@@ -1,0 +1,2 @@
+@mixin fontSize($num) { font-size: #{$num}em; }
+@mixin textAlign($pos) { text-align: $pos; }
