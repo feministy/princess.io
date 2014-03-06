@@ -1,3 +1,19 @@
-@import "base";
-@import "animations";
-@import "custom";
+// Absolute bare requirements
+@import "base/normalize";
+@import "base/base";
+
+// Modules: elements
+@import "modules/alerts";
+@import "modules/animations";
+@import "modules/borders";
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/images";
+@import "modules/tables";
+@import "modules/transformations";
+@import "modules/transitions";
+
+// Modules: layout components
+@import "components/footers";
+@import "components/headers";
+@import "components/menus";
