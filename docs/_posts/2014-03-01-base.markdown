@@ -23,8 +23,7 @@ color #454445.
 
 ## Links
 
-Links are styled using the `$primary` and `$secondary` color variables.
-For more about colors, see [Colors]({% post_url 2014-03-01-colors %}).
+Links are styled using the `$primary` color variables and include a transition that fades all elements on/off. For more about colors, see [Colors]({% post_url 2014-03-01-colors %}).
 
 [I am a link to /!](/)
 
