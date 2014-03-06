@@ -26,6 +26,7 @@ Base, includes:
 
 body, p {
   @include fontSize($fontSize);
+  background-color: $background;
   font-family: $font;
   font-weight: $fontWeight;
   line-height: #{$lineHeight}em;
