@@ -504,6 +504,29 @@ var {
   background-color: #ffd1d7;
   display: block; }
 
+.prncs-img-rounded {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+.prncs-img-circle {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%; }
+
+.highlight {
+  padding: 20px;
+  margin: 20px 0px;
+  border: 1px solid silver;
+  background-color: #f3f3f3; }
+
+pre {
+  margin: 0px; }
+
 a {
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
