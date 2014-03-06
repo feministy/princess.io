@@ -10,18 +10,18 @@ Images have default styling included in [Base]({% post_url 2014-03-01-base %}). 
 
 ## Rounded corners
 
+<img src="/assets/kiwi.jpg" class="prncs-img-rounded" width="300px">
+
 {% highlight html %}
 <img src="/assets/kiwi.jpg" class="prncs-img-rounded">
 {% endhighlight %}
-
-<img src="/assets/kiwi.jpg" class="prncs-img-rounded" width="300px">
 
 ## Circle
 
 *Requires a square image to form a circle.*
 
+<img src="/assets/kiwi.jpg" class="prncs-img-circle" width="300px">
+
 {% highlight html %}
 <img src="/assets/kiwi.jpg" class="prncs-img-circle">
 {% endhighlight %}
-
-<img src="/assets/kiwi.jpg" class="prncs-img-circle" width="300px">
