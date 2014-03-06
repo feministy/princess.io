@@ -6,9 +6,7 @@ categories: 0.0.1
 tags: core
 ---
 
-Base is the foundation of Princess and is a core component of the library. You can't use Princess without the Base module. The Princess documentation is styled using Princess.
-
-The Base module styles all of the elements overriden in Normalize.
+Base is the foundation of Princess and is a core component of the library. You can't use Princess without Base. The Base module styles many of the elements overriden in Normalize.
 
 ---
 
@@ -16,14 +14,13 @@ The Base module styles all of the elements overriden in Normalize.
 
 Unless overridden by a more specific element, all `p` tags and
 individual elements inside of `body` will render with Helvetica in size
-1.1em with a line-spacing of 1.5em in a font weight of 400 and the hex
-color #454445.
+1.05em with a line-spacing of 1.5em in a font weight of 400, and the color assigned to the variable `$text`.
 
 ---
 
 ## Links
 
-Links are styled using the `$primary` color variables and include a transition that fades all elements on/off. For more about colors, see [Colors]({% post_url 2014-03-01-colors %}).
+Links are styled using the `$primary` color variables and include a transition that fades all elements on/off.
 
 [I am a link to /!](/)
 
