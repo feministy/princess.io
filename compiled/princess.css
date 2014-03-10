@@ -362,14 +362,10 @@ Created and maintained by Liz Abinante (feministy)
 http://github.com/feministy/princess.io
 http://princess.io
 
-Base, includes:
-- basic typography
-- primary HTML5 elements
-- minor overrides to Normalize
-
 **/
 body, p {
-  font-size: 1.1em;
+  font-size: 1.05em;
+  background-color: white;
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
@@ -378,7 +374,12 @@ body, p {
 a, a:visited {
   color: #009393;
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 600;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -ms-transition: all 500ms;
+  transition: all 500ms; }
 
 a:hover {
   color: #00c6c6; }
@@ -395,35 +396,35 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   padding: 40px 0px 20px 0px;
-  font-size: 2.75em;
+  font-size: 2.415em;
   font-weight: 800; }
 
 h2, h3 {
   padding: 20px 0px 10px 0px; }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 1.89em;
   font-weight: 400; }
 
 h3 {
-  font-size: 1.76em;
+  font-size: 1.575em;
   font-weight: 400; }
 
 h4, h5 {
   padding: 10px 0px 5px 0px; }
 
 h4 {
-  font-size: 1.43em;
+  font-size: 1.26em;
   font-weight: 400; }
 
 h5 {
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-weight: 800; }
 
 h6 {
   padding: 5px 0px 5px 0px;
   margin: 0px;
-  font-size: 0.88em;
+  font-size: 0.84em;
   font-weight: 800; }
 
 ul li, ol li {
@@ -435,9 +436,9 @@ dl dt {
   padding: 0px 20px;
   margin: 0px; }
 dl dd {
-  border-left: 1px dotted #c4c4c4;
+  border-left: 1px solid #f3f3f3;
   text-align: justify;
-  font-size: 0.99em;
+  font-size: 0.945em;
   padding: 0px 10px;
   margin: 0px 30px 20px 30px; }
 
@@ -449,12 +450,12 @@ address {
   font-style: italic; }
 
 blockquote {
-  border-left: 5px solid #00c6c6;
   font-style: italic;
+  border-left: 5px solid #00c6c6;
   padding: 20px; }
 
 cite {
-  font-size: 0.88em; }
+  font-size: 0.84em; }
 
 code {
   background-color: #f3f3f3;
@@ -478,14 +479,14 @@ q:before, q:after {
   font-family: "Georgia", serif;
   font-weight: 800;
   font-style: italic;
-  font-size: 1.21em;
+  font-size: 1.155em;
   padding: 0px 5px; }
 
 q {
   font-style: italic; }
 
 small {
-  font-size: 0.77em; }
+  font-size: 0.735em; }
 
 sup, sub {
   color: #929092; }
@@ -507,6 +508,11 @@ Module: alerts
   color: #ff0528;
   background-color: #ffd1d7;
   display: block; }
+
+.prncs-alert-inline {
+  padding: 5px;
+  color: #ff0528;
+  background-color: #ffd1d7; }
 
 /**
 Princess
@@ -546,6 +552,7 @@ Module: jekyll
   padding: 20px;
   margin: 20px 0px;
   border: 1px solid silver;
+  font-size: 0.84em;
   background-color: #f3f3f3; }
 
 pre {
@@ -563,9 +570,88 @@ Module: transformations
 Princess
 Module: transitions
 **/
-a {
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  -ms-transition: all 500ms;
-  transition: all 500ms; }
+/**
+Princess
+Component: menus
+**/
+ul.prncs-menu-horizontal {
+  padding: 0px; }
+  ul.prncs-menu-horizontal li {
+    margin: 0px 5px 0px 0px;
+    font-size: 0.84em;
+    display: inline; }
+    ul.prncs-menu-horizontal li a {
+      padding: 10px 20px;
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -o-transition: all 500ms;
+      -ms-transition: all 500ms;
+      transition: all 500ms;
+      color: #8d8d8d;
+      font-weight: 400; }
+    ul.prncs-menu-horizontal li a:hover {
+      background-color: #f3f3f3; }
+    ul.prncs-menu-horizontal li.prncs-menu-leader a {
+      font-weight: 800;
+      color: #454445; }
+    ul.prncs-menu-horizontal li.prncs-menu-leader a:hover {
+      background-color: white; }
+    ul.prncs-menu-horizontal li.prncs-menu-selected a {
+      color: #454445; }
+    ul.prncs-menu-horizontal li.prncs-menu-disabled a {
+      color: silver; }
+    ul.prncs-menu-horizontal li.prncs-menu-disabled a:hover {
+      background-color: white; }
+
+ul.prncs-menu-vertical {
+  padding: 0px;
+  border: 1px solid #f3f3f3;
+  width: 250px; }
+  ul.prncs-menu-vertical li {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.84em;
+    width: 100%;
+    list-style-type: none; }
+    ul.prncs-menu-vertical li a {
+      padding: 10px 20px;
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -o-transition: all 500ms;
+      -ms-transition: all 500ms;
+      transition: all 500ms;
+      color: #8d8d8d;
+      font-weight: 400;
+      display: block; }
+    ul.prncs-menu-vertical li a:hover {
+      background-color: #f3f3f3; }
+    ul.prncs-menu-vertical li.prncs-menu-leader, ul.prncs-menu-vertical li.prncs-menu-leader-sub {
+      border-bottom: 1px solid #f3f3f3;
+      padding: 10px 20px;
+      width: 210px; }
+    ul.prncs-menu-vertical li.prncs-menu-leader {
+      font-weight: 800; }
+
+ul.prncs-menu-paginator {
+  padding: 0px; }
+  ul.prncs-menu-paginator li {
+    margin: 0px;
+    font-size: 0.84em;
+    display: inline; }
+    ul.prncs-menu-paginator li a {
+      padding: 13.33333px 20px;
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -o-transition: all 500ms;
+      -ms-transition: all 500ms;
+      transition: all 500ms;
+      margin: 0px -3px;
+      border: 1px solid #f3f3f3;
+      color: #8d8d8d;
+      font-weight: 400; }
+    ul.prncs-menu-paginator li a:hover {
+      background: #f3f3f3; }
+    ul.prncs-menu-paginator li.prncs-menu-paginator-arrow a, ul.prncs-menu-paginator li.prncs-menu-selected a {
+      font-weight: 800; }
+    ul.prncs-menu-paginator li.prncs-menu-selected a {
+      color: #454445; }
