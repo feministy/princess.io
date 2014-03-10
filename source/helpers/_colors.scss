@@ -1,26 +1,35 @@
-$text: rgba(69, 68, 69, 1);
+@import "themes";
+
+// ----------------------------------------------------------------------- //
+// To change color schemes, change `$default` to the color scheme you want //
+// ----------------------------------------------------------------------- //
+
+$theme: $default;
+
+// ----------------------------------------------------------------------- //
+// For your safety, do not edit below this line; this all depends on theme //
+// ----------------------------------------------------------------------- //
+
+$background: map-get($theme, background);
+
+$text: map-get($theme, text);
 $textLight: lighten($text, 30%);
 $textLightest: lighten($text, 50%);
-$background: #fff;
 
-// Paired dark/light teal
-$primary: rgba(0, 147, 147, 1);
+$primary: map-get($theme, primary);
 $primaryLight: lighten($primary, 10%);
 $primaryLightest: lighten($primary, 25%);
 
-// Paired orange/red
-$accent: rgba(249, 59, 63, 1);
+$accent: map-get($theme, accent);
 $accentLight: lighten($accent, 10%);
 $accentLightest: lighten($accent, 25%);
 $accentDark: darken($accent, 10%);
 $accentDarkest: darken($accent, 20%);
 
-// Alert (vibrant red)
-$alert: rgba(255, 5, 40, 1);
+$alert: map-get($theme, alert);
 $alertLight: lighten($alert, 10%);
 $alertLightest: lighten($alert, 40%);
 
-// White alternative
-$gray: rgba(243, 243, 243, 1);
+$gray: map-get($theme, gray);
 $grayDark: darken($gray, 20%);
 $grayDarkest: darken($gray, 40%);
