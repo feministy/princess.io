@@ -1,3 +1,5 @@
+@import "themes";
+
 // font family
 $font: 'Helvetica', 'Arial', sans-serif;
 $fontAccent: 'Georgia', serif;
@@ -16,3 +18,38 @@ $margin: 20;
 $borderRadius: 20px;
 $transition: 500ms;
 $verticalMenuWidth: 250;
+
+
+// ----------------------------------------------------------------------- //
+// To change color schemes, change `$default` to the color scheme you want //
+// ----------------------------------------------------------------------- //
+
+$theme: $default;
+
+// ----------------------------------------------------------------------- //
+// For your safety, do not edit below this line; this all depends on theme //
+// ----------------------------------------------------------------------- //
+
+$background: map-get($theme, background);
+
+$text: map-get($theme, text);
+$textLight: lighten($text, 30%);
+$textLightest: lighten($text, 50%);
+
+$primary: map-get($theme, primary);
+$primaryLight: lighten($primary, 10%);
+$primaryLightest: lighten($primary, 25%);
+
+$accent: map-get($theme, accent);
+$accentLight: lighten($accent, 10%);
+$accentLightest: lighten($accent, 25%);
+$accentDark: darken($accent, 10%);
+$accentDarkest: darken($accent, 20%);
+
+$alert: map-get($theme, alert);
+$alertLight: lighten($alert, 10%);
+$alertLightest: lighten($alert, 40%);
+
+$gray: map-get($theme, gray);
+$grayDark: darken($gray, 20%);
+$grayDarkest: darken($gray, 40%);
