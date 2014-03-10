@@ -443,7 +443,7 @@ dl dd {
   margin: 0px 30px 20px 30px; }
 
 abbr, abbr[title] {
-  border-bottom: 1px dotted #c4c4c4; }
+  border-bottom: 1px solid #c4c4c4; }
 
 address {
   color: #929092;
