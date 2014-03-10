@@ -55,28 +55,28 @@ h1, h2, h3, h4, h5 {
   @include dualMargin($margin/4, 0);
 }
 
+h1, h2 {
+  @include dualPadding($padding, 0);
+}
+
 h1 {
-  @include fullPadding($padding*2, 0, $padding, 0);
   @include fontSize($fontSize*2.3);
   font-weight: $fontWeight*2;
 }
 
-h2, h3 {
-  @include fullPadding($padding, 0, $padding/2, 0);
-}
 
 h2 {
   @include fontSize($fontSize*1.8);
   font-weight: $fontWeight;
 }
 
+h3, h4, h5 {
+  @include fullPadding($padding, 0, $padding/2, 0);
+}
+
 h3 {
   @include fontSize($fontSize*1.5);
   font-weight: $fontWeight;
-}
-
-h4, h5 {
-  @include fullPadding($padding/2, 0, $padding/4, 0);
 }
 
 h4 {
@@ -90,7 +90,7 @@ h5 {
 }
 
 h6 {
-  @include fullPadding($padding/4, 0, $padding/4, 0);
+  @include fullPadding($padding/4, 0, 0, 0);
   @include soloMargin(0);
   @include fontSize($fontSize*0.8);
   font-weight: $fontWeight*2;

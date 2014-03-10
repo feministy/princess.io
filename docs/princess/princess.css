@@ -394,24 +394,23 @@ strong, b {
 h1, h2, h3, h4, h5 {
   margin: 5px 0px; }
 
+h1, h2 {
+  padding: 20px 0px; }
+
 h1 {
-  padding: 40px 0px 20px 0px;
   font-size: 2.415em;
   font-weight: 800; }
-
-h2, h3 {
-  padding: 20px 0px 10px 0px; }
 
 h2 {
   font-size: 1.89em;
   font-weight: 400; }
 
+h3, h4, h5 {
+  padding: 20px 0px 10px 0px; }
+
 h3 {
   font-size: 1.575em;
   font-weight: 400; }
-
-h4, h5 {
-  padding: 10px 0px 5px 0px; }
 
 h4 {
   font-size: 1.26em;
@@ -422,7 +421,7 @@ h5 {
   font-weight: 800; }
 
 h6 {
-  padding: 5px 0px 5px 0px;
+  padding: 5px 0px 0px 0px;
   margin: 0px;
   font-size: 0.84em;
   font-weight: 800; }
