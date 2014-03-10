@@ -53,3 +53,25 @@ $alertLightest: lighten($alert, 40%);
 $gray: map-get($theme, gray);
 $grayDark: darken($gray, 20%);
 $grayDarkest: darken($gray, 40%);
+
+// For iteration
+$allColors: (
+  background: $background,
+  text: $text,
+  textLight: $textLight,
+  textLightest: $textLightest,
+  primary: $primary,
+  primaryLight: $primaryLight,
+  primaryLightest: $primaryLightest,
+  accent: $accent,
+  accentLight: $accentLight,
+  accentLightest: $accentLightest,
+  accentDark: $accentDark,
+  accentDarkest: $accentDarkest,
+  alert: $alert,
+  alertLight: $alertLight,
+  alertLightest: $alertLightest,
+  gray: $gray,
+  grayDark: $grayDark,
+  grayDarkest: $grayDarkest
+)

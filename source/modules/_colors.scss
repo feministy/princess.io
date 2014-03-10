@@ -1,0 +1,8 @@
+@each $class, $color in $allColors {
+  .prncs-text-#{$class} {
+    color: $color;
+  }
+  .prncs-background-#{$class} {
+    background-color: $color;
+  }
+}
