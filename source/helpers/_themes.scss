@@ -6,4 +6,58 @@ $default: (
   accent: rgba(249, 59, 63, 1),
   alert: rgba(255, 5, 40, 1),
   gray: rgba(243, 243, 243, 1),
-)
+);
+
+$blueTeal: (
+  text: rgba(69, 68, 69, 1),
+  background: #fff,
+  primary: rgba(2, 80, 116, 1),
+  accent: rgba(0, 171, 132, 1),
+  alert: rgba(255, 5, 40, 1),
+  gray: rgba(243, 243, 243, 1),
+);
+
+$blueYellow: (
+  text: rgba(69, 68, 69, 1),
+  background: #fff,
+  primary: rgba(2, 80, 116, 1),
+  accent: rgba(246, 217, 77, 1),
+  alert: rgba(255, 5, 40, 1),
+  gray: rgba(243, 243, 243, 1),
+);
+
+$blueGreen: (
+  text: rgba(69, 68, 69, 1),
+  background: #fff,
+  primary: rgba(4, 127, 160, 1),
+  accent: rgba(181, 211, 53, 1),
+  alert: rgba(255, 5, 40, 1),
+  gray: rgba(243, 243, 243, 1),
+);
+
+$berries: (
+  text: rgba(69, 68, 69, 1),
+  background: #fff,
+  primary: rgba(155, 19, 54, 1),
+  accent: rgba(59, 39, 61, 1),
+  alert: rgba(232, 59, 53, 1),
+  gray: rgba(243, 243, 243, 1),
+);
+
+$tealBrown: (
+  text: rgba(69, 68, 69, 1),
+  background: #fff,
+  primary: rgba(59, 40, 44, 1),
+  accent: rgba(48, 163, 135, 1),
+  alert: rgba(255, 5, 40, 1),
+  gray: rgba(243, 243, 243, 1),
+);
+
+// $myCustomScheme: (
+//   text: #000,
+//   background: #000,
+//   primary: #000,
+//   accent: #000,
+//   alert: #000,
+//   gray: #000,
+// )
