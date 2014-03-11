@@ -1,9 +1,9 @@
-@mixin borderRadius($num:$borderRadius) {
-  -webkit-border-radius: $num;
-  -moz-border-radius: $num;
-  -o-border-radius: $num;
-  -ms-border-radius: $num;
-  border-radius: $num;
+@mixin borderRadius($num:$rounded) {
+  -webkit-border-radius: #{$num}px;
+  -moz-border-radius: #{$num}px;
+  -o-border-radius: #{$num}px;
+  -ms-border-radius: #{$num}px;
+  border-radius: #{$num}px;
 }
 
 @mixin borderSkinny($color) {

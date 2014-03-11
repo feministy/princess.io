@@ -1,6 +1,3 @@
-@import "borders";
-@import "../helpers/spacing";
-
 @mixin buttonGradient($color1) {
   $color2: lighten($color1, 7%);
   background: $color1;
@@ -12,7 +9,7 @@
 }
 
 @mixin buttonSize($percentage:1) {
-  $top: ($padding/3)*$percentage;
+  $top: ($padding/2.8)*$percentage;
   $sides: ($padding/1.5)*$percentage;
   $fontPercent: ($fontSize * 0.8)*$percentage;
   @include dualPadding($top, $sides);

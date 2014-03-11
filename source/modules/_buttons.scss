@@ -40,11 +40,11 @@ Module: buttons
 }
 
 .prncs-btn-round {
-  @include borderRadius(#{$padding}px);
+  @include borderRadius($round);
 }
 
 .prncs-btn-rounded {
-  @include borderRadius(#{$padding/4}px);
+  @include borderRadius($rounded);
 }
 
 // Sizes
