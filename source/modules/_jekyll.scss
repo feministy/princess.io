@@ -10,6 +10,9 @@ Module: jekyll
   @include borderSkinny($grayDark);
   @include fontSize($fontSize*0.8);
   background-color: $gray;
+  code {
+    @include soloPadding(0);
+  }
 }
 
 pre {
