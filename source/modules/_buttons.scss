@@ -3,18 +3,65 @@ Princess
 Module: buttons
 **/
 
+@import "../mixins/borders";
 @import "../mixins/buttons";
 
-// Regular sized buttons
-.prncs-btn {}
-.prncs-btn-primary {}
-.prncs-btn-primary-light {}
-.prncs-btn-accent {}
-.prncs-btn-accent-light {}
-.prncs-btn-alert {}
-.prncs-btn-alert-light {}
+.prncs-btn {
+  @include buttonSize;
+  border: 0px;
+  color: $text;
+  font-family: $font;
+  background: $textLightest;
+  &:hover {
+    @include buttonGradient($textLightest);
+  }
+}
 
-// Micro
-// Small
-// Large
+@each $class, $color in $allColors {
+  .prncs-btn-#{$class} {
+    @if $color == $primary {
+      color: $background;
+    } @else if $color == $accentDarkest {
+      color: $background;
+    } @else if $color == $accentDark {
+      color: $background;
+    } @else if $color == $accent {
+      color: $background;
+    } @else if $color == $text {
+      color: $background;
+    } @else if $color == $alert {
+      color: $background;
+    }
+    background: $color;
+    &:hover {
+      @include buttonGradient($color);
+    }
+  }
+}
+
+.prncs-btn-round {
+  @include borderRadius(#{$padding}px);
+}
+
+.prncs-btn-rounded {
+  @include borderRadius(#{$padding/4}px);
+}
+
+// Sizes
+.prncs-btn-micro {
+  @include buttonSize(0.5);
+}
+
+.prncs-btn-small {
+  @include buttonSize(0.7);
+}
+
+.prncs-btn-large {
+  @include buttonSize(1.3);
+}
+
 // Block
+.prncs-btn-block {
+  display: inline-block;
+  width: 100%;
+}

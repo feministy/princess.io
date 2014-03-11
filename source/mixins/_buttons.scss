@@ -1,10 +1,20 @@
 @import "borders";
+@import "../helpers/spacing";
 
-@mixin button {
-  /** magical button shit **/
+@mixin buttonGradient($color1) {
+  $color2: lighten($color1, 7%);
+  background: $color1;
+  background-image: -webkit-linear-gradient(top, $color1, $color2);
+  background-image: -moz-linear-gradient(top, $color1, $color2);
+  background-image: -ms-linear-gradient(top, $color1, $color2);
+  background-image: -o-linear-gradient(top, $color1, $color2);
+  background-image: linear-gradient(to bottom, $color1, $color2);
 }
 
-@mixin buttonRounded {
- /** magical button shit **/
- /** but with rounded corners! **/
+@mixin buttonSize($percentage:1) {
+  $top: ($padding/3)*$percentage;
+  $sides: ($padding/1.5)*$percentage;
+  $fontPercent: ($fontSize * 0.8)*$percentage;
+  @include dualPadding($top, $sides);
+  @include fontSize($fontPercent);
 }

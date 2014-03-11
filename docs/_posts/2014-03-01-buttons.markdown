@@ -5,3 +5,117 @@ date:   2014-03-01 20:51:19
 categories: 0.0.1
 tags: modules
 ---
+
+Button classes in Princess are stacked. The base class is `prncs-btn`. Once that has been applied, you can apply any other classes in whatever order you want.
+
+<button class="prncs-btn">Default Button</button>
+
+{% highlight html %}
+<button class="prncs-btn">Default Button</button>
+{% endhighlight %}
+
+## Button options
+
+Available options include:
+
+* Size: micro, small, default, large
+* Borders: rectangle, slightly rounded, very rounded
+* Colors: *every* color available!
+* Block buttons
+
+### Button sizes
+
+<button class="prncs-btn prncs-btn-micro">Micro Button</button>
+<button class="prncs-btn prncs-btn-small">Small Button</button>
+<button class="prncs-btn">Default Button</button>
+<button class="prncs-btn prncs-btn-large">Large Button</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-micro">Micro Button</button>
+<button class="prncs-btn prncs-btn-small">Small Button</button>
+<button class="prncs-btn">Default Button</button>
+<button class="prncs-btn prncs-btn-large">Large Button</button>
+{% endhighlight %}
+
+### Button borders
+
+There are three types of buttons available in Princess:
+
+* Rectangle (default)
+* Rounded (slight curved edges)
+* Round (emphasize curved edges)
+
+<button class="prncs-btn prncs-btn-rounded">Rounded Button</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-rounded">Rounded Button</button>
+{% endhighlight %}
+
+<button class="prncs-btn prncs-btn-round">Round Button</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-round">Round Button</button>
+{% endhighlight %}
+
+### Button colors
+
+The default button is `$textLightest`. Buttons are available in all colors.
+
+<button class="prncs-btn prncs-btn-text">text</button> <button class="prncs-btn prncs-btn-textLight">textLight</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-text">text</button>
+<button class="prncs-btn prncs-btn-textLight">textLight</button>
+{% endhighlight %}
+
+<!--  -->
+
+<button class="prncs-btn prncs-btn-primary">primary</button> <button class="prncs-btn prncs-btn-primaryLight">primaryLight</button> <button class="prncs-btn prncs-btn-primaryLightest">primaryLightest</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-primary">primary</button>
+<button class="prncs-btn prncs-btn-primaryLight">primaryLight</button>
+<button class="prncs-btn prncs-btn-primaryLightest">primaryLightest</button>
+{% endhighlight %}
+
+<!--  -->
+
+<button class="prncs-btn prncs-btn-accent">accent</button> <button class="prncs-btn prncs-btn-accentLight">accentLight</button> <button class="prncs-btn prncs-btn-accentLightest">accentLightest</button> <button class="prncs-btn prncs-btn-accentDark">accentDark</button> <button class="prncs-btn prncs-btn-accentDarkest">accentDarkest</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-accent">accent</button>
+<button class="prncs-btn prncs-btn-accentLight">accentLight</button>
+<button class="prncs-btn prncs-btn-accentLightest">accentLightest</button>
+<button class="prncs-btn prncs-btn-accentDark">accentDark</button>
+<button class="prncs-btn prncs-btn-accentDarkest">accentDarkest</button>
+{% endhighlight %}
+
+<!--  -->
+
+<button class="prncs-btn prncs-btn-alert">alert</button> <button class="prncs-btn prncs-btn-alertLight">alertLight</button> <button class="prncs-btn prncs-btn-alertLightest">alertLightest</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-alert">alert</button>
+<button class="prncs-btn prncs-btn-alertLight">alertLight</button>
+<button class="prncs-btn prncs-btn-alertLightest">alertLightest</button>
+{% endhighlight %}
+
+<!--  -->
+
+<button class="prncs-btn prncs-btn-gray">gray</button> <button class="prncs-btn prncs-btn-grayDark">grayDark</button> <button class="prncs-btn prncs-btn-grayDarkest">grayDarkest</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-gray">gray</button>
+<button class="prncs-btn prncs-btn-grayDark">grayDark</button>
+<button class="prncs-btn prncs-btn-grayDarkest">grayDarkest</button>
+{% endhighlight %}
+
+### Block buttons
+
+The block button defaults to size Medium, but it can be used with other button sizes. You can also use other button colors or borders.
+
+<button class="prncs-btn prncs-btn-block">Block Button</button>
+
+{% highlight html %}
+<button class="prncs-btn prncs-btn-block">Block Button</button>
+{% endhighlight %}
