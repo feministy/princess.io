@@ -752,6 +752,54 @@ Module: buttons
   display: inline-block;
   width: 100%; }
 
+/**
+Princess
+Module: forms
+**/
+/**
+Princess
+Module: images
+**/
+.prncs-img-rounded {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+.prncs-img-circle {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%; }
+
+/**
+Princess
+Module: jekyll
+**/
+.highlight {
+  padding: 20px;
+  margin: 20px 0px;
+  border: 1px solid silver;
+  font-size: 0.84em;
+  background-color: #f3f3f3; }
+
+pre {
+  margin: 0px; }
+
+/**
+Princess
+Module: tables
+**/
+/**
+Princess
+Module: transformations
+**/
+/**
+Princess
+Module: transitions
+**/
 .prncs-text-background {
   color: white; }
 
@@ -860,54 +908,6 @@ Module: buttons
 .prncs-background-grayDarkest {
   background-color: #8d8d8d; }
 
-/**
-Princess
-Module: forms
-**/
-/**
-Princess
-Module: images
-**/
-.prncs-img-rounded {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-  border-radius: 20px; }
-
-.prncs-img-circle {
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -o-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%; }
-
-/**
-Princess
-Module: jekyll
-**/
-.highlight {
-  padding: 20px;
-  margin: 20px 0px;
-  border: 1px solid silver;
-  font-size: 0.84em;
-  background-color: #f3f3f3; }
-
-pre {
-  margin: 0px; }
-
-/**
-Princess
-Module: tables
-**/
-/**
-Princess
-Module: transformations
-**/
-/**
-Princess
-Module: transitions
-**/
 /**
 Princess
 Component: menus
