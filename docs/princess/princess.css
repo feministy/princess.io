@@ -517,6 +517,60 @@ Module: alerts
 Princess
 Module: animations
 **/
+.prncs-background-background {
+  background-color: white; }
+
+.prncs-background-text {
+  background-color: #454445; }
+
+.prncs-background-textLight {
+  background-color: #929092; }
+
+.prncs-background-textLightest {
+  background-color: #c4c4c4; }
+
+.prncs-background-primary {
+  background-color: #009393; }
+
+.prncs-background-primaryLight {
+  background-color: #00c6c6; }
+
+.prncs-background-primaryLightest {
+  background-color: #14ffff; }
+
+.prncs-background-accent {
+  background-color: #f93b3f; }
+
+.prncs-background-accentLight {
+  background-color: #fb6c6f; }
+
+.prncs-background-accentLightest {
+  background-color: #fdb7b8; }
+
+.prncs-background-accentDark {
+  background-color: #f70a0f; }
+
+.prncs-background-accentDarkest {
+  background-color: #c8060a; }
+
+.prncs-background-alert {
+  background-color: #ff0528; }
+
+.prncs-background-alertLight {
+  background-color: #ff3854; }
+
+.prncs-background-alertLightest {
+  background-color: #ffd1d7; }
+
+.prncs-background-gray {
+  background-color: #f3f3f3; }
+
+.prncs-background-grayDark {
+  background-color: silver; }
+
+.prncs-background-grayDarkest {
+  background-color: #8d8d8d; }
+
 /**
 Princess
 Module: buttons
@@ -784,6 +838,8 @@ Module: jekyll
   border: 1px solid silver;
   font-size: 0.84em;
   background-color: #f3f3f3; }
+  .highlight code {
+    padding: 0px; }
 
 pre {
   margin: 0px; }
@@ -803,110 +859,56 @@ Module: transitions
 .prncs-text-background {
   color: white; }
 
-.prncs-background-background {
-  background-color: white; }
-
 .prncs-text-text {
   color: #454445; }
-
-.prncs-background-text {
-  background-color: #454445; }
 
 .prncs-text-textLight {
   color: #929092; }
 
-.prncs-background-textLight {
-  background-color: #929092; }
-
 .prncs-text-textLightest {
   color: #c4c4c4; }
-
-.prncs-background-textLightest {
-  background-color: #c4c4c4; }
 
 .prncs-text-primary {
   color: #009393; }
 
-.prncs-background-primary {
-  background-color: #009393; }
-
 .prncs-text-primaryLight {
   color: #00c6c6; }
-
-.prncs-background-primaryLight {
-  background-color: #00c6c6; }
 
 .prncs-text-primaryLightest {
   color: #14ffff; }
 
-.prncs-background-primaryLightest {
-  background-color: #14ffff; }
-
 .prncs-text-accent {
   color: #f93b3f; }
-
-.prncs-background-accent {
-  background-color: #f93b3f; }
 
 .prncs-text-accentLight {
   color: #fb6c6f; }
 
-.prncs-background-accentLight {
-  background-color: #fb6c6f; }
-
 .prncs-text-accentLightest {
   color: #fdb7b8; }
-
-.prncs-background-accentLightest {
-  background-color: #fdb7b8; }
 
 .prncs-text-accentDark {
   color: #f70a0f; }
 
-.prncs-background-accentDark {
-  background-color: #f70a0f; }
-
 .prncs-text-accentDarkest {
   color: #c8060a; }
-
-.prncs-background-accentDarkest {
-  background-color: #c8060a; }
 
 .prncs-text-alert {
   color: #ff0528; }
 
-.prncs-background-alert {
-  background-color: #ff0528; }
-
 .prncs-text-alertLight {
   color: #ff3854; }
-
-.prncs-background-alertLight {
-  background-color: #ff3854; }
 
 .prncs-text-alertLightest {
   color: #ffd1d7; }
 
-.prncs-background-alertLightest {
-  background-color: #ffd1d7; }
-
 .prncs-text-gray {
   color: #f3f3f3; }
-
-.prncs-background-gray {
-  background-color: #f3f3f3; }
 
 .prncs-text-grayDark {
   color: silver; }
 
-.prncs-background-grayDark {
-  background-color: silver; }
-
 .prncs-text-grayDarkest {
   color: #8d8d8d; }
-
-.prncs-background-grayDarkest {
-  background-color: #8d8d8d; }
 
 /**
 Princess

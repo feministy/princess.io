@@ -1,0 +1,5 @@
+@each $class, $color in $allColors {
+  .prncs-background-#{$class} {
+    background-color: $color;
+  }
+}
