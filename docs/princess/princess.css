@@ -572,7 +572,7 @@ Princess
 Module: buttons
 **/
 .prncs-btn {
-  padding: 6.66667px 13.33333px;
+  padding: 7.14286px 13.33333px;
   font-size: 0.84em;
   border: 0px;
   color: #454445;
@@ -787,15 +787,15 @@ Module: buttons
   border-radius: 5px; }
 
 .prncs-btn-micro {
-  padding: 3.33333px 6.66667px;
+  padding: 3.57143px 6.66667px;
   font-size: 0.42em; }
 
 .prncs-btn-small {
-  padding: 4.66667px 9.33333px;
+  padding: 5px 9.33333px;
   font-size: 0.588em; }
 
 .prncs-btn-large {
-  padding: 8.66667px 17.33333px;
+  padding: 9.28571px 17.33333px;
   font-size: 1.092em; }
 
 .prncs-btn-block {
@@ -806,23 +806,49 @@ Module: buttons
 Princess
 Module: forms
 **/
-/**
-Princess
-Module: images
-**/
-.prncs-img-rounded {
+.prncs-form input, .prncs-form textarea {
+  border: 1px solid #f3f3f3;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 0.84em;
+  -webkit-box-shadow: inset 0 1px 4px silver;
+  -moz-box-shadow: inset 0 1px 4px silver;
+  box-shadow: inset 0 1px 4px silver; }
+.prncs-form input:focus, .prncs-form textarea:focus {
+  border: 1px solid #00c6c6;
+  outline: 0; }
+
+.prncs-form-rounded input, .prncs-form-rounded textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.prncs-form-round input, .prncs-form-round textarea {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -o-border-radius: 20px;
   -ms-border-radius: 20px;
   border-radius: 20px; }
 
+/**
+Princess
+Module: images
+**/
+.prncs-img-rounded {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
 .prncs-img-circle {
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -o-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%; }
+  -webkit-border-radius: 100%px;
+  -moz-border-radius: 100%px;
+  -o-border-radius: 100%px;
+  -ms-border-radius: 100%px;
+  border-radius: 100%px; }
 
 /**
 Princess

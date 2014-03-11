@@ -5,3 +5,23 @@ date:   2014-03-01 20:50:19
 categories: 0.0.1
 tags: modules
 ---
+
+By default, form items will appear inline.
+
+<form class="prncs-form">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn">Submit</button>
+</form>
+
+{% highlight html %}
+<form class="prncs-form">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn">Submit</button>
+</form>
+{% endhighlight %}
