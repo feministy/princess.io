@@ -38,6 +38,16 @@ To have a round submit button, you must apply the appropriate class to the butto
   <button class="prncs-btn prncs-btn-round">Submit</button>
 </form>
 
+{% highlight html %}
+<form class="prncs-form prncs-form-round">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn prncs-btn-round">Submit</button>
+</form>
+{% endhighlight %}
+
 ## Rounded forms
 
 To have a rounded submit button, you must apply the appropriate class to the button.
@@ -49,3 +59,14 @@ To have a rounded submit button, you must apply the appropriate class to the but
   <input type="email" id="email" placeholder="email"></input>
   <button class="prncs-btn prncs-btn-rounded">Submit</button>
 </form>
+
+
+{% highlight html %}
+<form class="prncs-form prncs-form-rounded">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn prncs-btn-rounded">Submit</button>
+</form>
+{% endhighlight %}
