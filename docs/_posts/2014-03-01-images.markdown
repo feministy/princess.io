@@ -18,7 +18,7 @@ Images have default styling included in [Base]({% post_url 2014-03-01-base %}). 
 <img src="/assets/kiwi.jpg" class="prncs-img-circle">
 {% endhighlight %}
 
-## Round corcners
+## Round corners
 
 <img src="/assets/kiwi.jpg" class="prncs-img-round" width="300px">
 
@@ -32,4 +32,23 @@ Images have default styling included in [Base]({% post_url 2014-03-01-base %}). 
 
 {% highlight html %}
 <img src="/assets/kiwi.jpg" class="prncs-img-rounded">
+{% endhighlight %}
+
+## Shadow
+
+Shadows can be used with or without the shaping classes.
+
+<img src="/assets/kiwi.jpg" class="prncs-img-shadow" width="150px">
+
+<img src="/assets/kiwi.jpg" class="prncs-img-rounded prncs-img-shadow" width="150px">
+
+<img src="/assets/kiwi.jpg" class="prncs-img-shadow prncs-img-round" width="150px">
+
+<img src="/assets/kiwi.jpg" class="prncs-img-circle prncs-img-shadow" width="150px">
+
+{% highlight html %}
+<img src="/assets/kiwi.jpg" class="prncs-img-shadow" width="150px">
+<img src="/assets/kiwi.jpg" class="prncs-img-rounded prncs-img-shadow" width="150px">
+<img src="/assets/kiwi.jpg" class="prncs-img-round prncs-img-shadow" width="150px">
+<img src="/assets/kiwi.jpg" class="prncs-img-circle prncs-img-shadow" width="150px">
 {% endhighlight %}

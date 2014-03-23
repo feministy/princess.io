@@ -3,8 +3,8 @@ Princess
 Module: images
 **/
 
-
 @import "../mixins/borders";
+@import "../mixins/box_shadow";
 
 .prncs-img-rounded {
   @include borderRadius($rounded);
@@ -16,4 +16,8 @@ Module: images
 
 .prncs-img-circle {
   @include borderRadiusPercent(100%);
+}
+
+.prncs-img-shadow {
+  @include boxShadow;
 }
