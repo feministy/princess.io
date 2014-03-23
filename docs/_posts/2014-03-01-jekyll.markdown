@@ -5,3 +5,43 @@ date:   2014-03-01 19:58:19
 categories: 0.0.1
 tags: modules
 ---
+
+I do lots of work with Jekyll and I often find myself struggling with the formatting of code snippets.
+
+Princess adjusts padding and margins on the existing Jekyll class and adds a border for cleaner lines. The background color is set to `$gray` and the font size is reduced a little.
+
+These styles will automatically be applied to any Jekyll code snippet using the liquid highlight syntax.
+
+Here's a sample of some Ruby code:
+
+{% highlight ruby %}
+class Calculator
+  attr_reader :nums
+
+  def push(n)
+    @nums ||= []
+    @nums << n
+  end
+
+  def multiply
+    @nums.inject(&:*)
+  end
+
+  def add
+    @nums.inject(&:+)
+  end
+
+  def subtract
+    @nums.inject(&:-)
+  end
+
+  def clear
+    @nums = []
+  end
+
+  def remove_last
+    @nums.pop(1)
+    @nums
+  end
+end
+{% endhighlight %}
