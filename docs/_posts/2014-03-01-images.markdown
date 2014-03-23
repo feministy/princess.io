@@ -8,6 +8,8 @@ tags: modules
 
 Images have default styling included in [Base]({% post_url 2014-03-01-base %}). This module extends on those styles and provides additional helper classes for images.
 
+Images that are links do not have any borders or special styling.
+
 ## Circle images
 
 *Requires a square image to form a circle.* If you don't provide a round image, you'll just get some seriously intense corner rounding.
