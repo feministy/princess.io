@@ -2,3 +2,33 @@
 Princess
 Module: forms
 **/
+
+@import "../mixins/borders";
+
+.prncs-form {
+  input, textarea {
+    @include borderSkinny($gray);
+    @include soloPadding($padding/2);
+    @include dualMargin($margin/2, 0);
+    @include fontSize($fontSize*0.8);
+    -webkit-box-shadow: inset 0 1px 4px $grayDark;
+    -moz-box-shadow: inset 0 1px 4px $grayDark;
+    box-shadow: inset 0 1px 4px $grayDark;
+  }
+  input:focus, textarea:focus {
+    @include borderSkinny($primaryLight);
+    outline: 0;
+  }
+}
+
+.prncs-form-rounded {
+  input, textarea {
+    @include borderRadius($rounded);
+  }
+}
+
+.prncs-form-round {
+  input, textarea {
+    @include borderRadius($round);
+  }
+}
