@@ -25,3 +25,27 @@ By default, form items will appear inline.
   <button class="prncs-btn">Submit</button>
 </form>
 {% endhighlight %}
+
+## Round forms
+
+To have a round submit button, you must apply the appropriate class to the button.
+
+<form class="prncs-form prncs-form-round">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn prncs-btn-round">Submit</button>
+</form>
+
+## Rounded forms
+
+To have a rounded submit button, you must apply the appropriate class to the button.
+
+<form class="prncs-form prncs-form-rounded">
+  <label for="name">Name</label>
+  <input id ="name" type="text" placeholder="name"></input>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="email"></input>
+  <button class="prncs-btn prncs-btn-rounded">Submit</button>
+</form>
