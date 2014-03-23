@@ -7,9 +7,13 @@ Module: images
 @import "../mixins/borders";
 
 .prncs-img-rounded {
-  @include borderRadius;
+  @include borderRadius($rounded);
+}
+
+.prncs-img-round {
+  @include borderRadius($round);
 }
 
 .prncs-img-circle {
-  @include borderRadius(100%);
+  @include borderRadiusPercent(100%);
 }

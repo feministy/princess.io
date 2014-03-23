@@ -843,12 +843,19 @@ Module: images
   -ms-border-radius: 5px;
   border-radius: 5px; }
 
+.prncs-img-round {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
 .prncs-img-circle {
-  -webkit-border-radius: 100%px;
-  -moz-border-radius: 100%px;
-  -o-border-radius: 100%px;
-  -ms-border-radius: 100%px;
-  border-radius: 100%px; }
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%; }
 
 /**
 Princess

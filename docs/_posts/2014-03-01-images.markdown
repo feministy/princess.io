@@ -8,20 +8,28 @@ tags: modules
 
 Images have default styling included in [Base]({% post_url 2014-03-01-base %}). This module extends on those styles and provides additional helper classes for images.
 
+## Circle images
+
+*Requires a square image to form a circle.* If you don't provide a round image, you'll just get some seriously intense corner rounding.
+
+<img src="/assets/kiwi.jpg" class="prncs-img-circle" width="300px">
+
+{% highlight html %}
+<img src="/assets/kiwi.jpg" class="prncs-img-circle">
+{% endhighlight %}
+
+## Round corcners
+
+<img src="/assets/kiwi.jpg" class="prncs-img-round" width="300px">
+
+{% highlight html %}
+<img src="/assets/kiwi.jpg" class="prncs-img-round">
+{% endhighlight %}
+
 ## Rounded corners
 
 <img src="/assets/kiwi.jpg" class="prncs-img-rounded" width="300px">
 
 {% highlight html %}
 <img src="/assets/kiwi.jpg" class="prncs-img-rounded">
-{% endhighlight %}
-
-## Circle
-
-*Requires a square image to form a circle.*
-
-<img src="/assets/kiwi.jpg" class="prncs-img-circle" width="300px">
-
-{% highlight html %}
-<img src="/assets/kiwi.jpg" class="prncs-img-circle">
 {% endhighlight %}

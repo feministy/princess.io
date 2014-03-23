@@ -6,6 +6,15 @@
   border-radius: #{$num}px;
 }
 
+@mixin borderRadiusPercent($percent) {
+  -webkit-border-radius: #{$percent};
+  -moz-border-radius: #{$percent};
+  -o-border-radius: #{$percent};
+  -ms-border-radius: #{$percent};
+  border-radius: #{$percent};
+}
+
+
 @mixin borderSkinny($color) {
   border: 1px solid $color;
 }
