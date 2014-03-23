@@ -5,3 +5,53 @@ date:   2014-03-01 19:57:25
 categories: 0.0.1
 tags: modules
 ---
+
+Princess includes utility classes to help provide additional spacing on your page or on certain elements. 
+
+If you change the value of the `$padding` or `$margin` variable, it will impact *all* spacing classes. The default value is 20px. Half default is 10px and quarter default is 5px.
+
+The following utility classes can be applied to any element. You can stack them and apply one on top of the other if desired.
+
+## Full margins and padding
+
+The same value is applied to all 4 sides of the element.
+
+* 20px (default): `prncs-margin`, `prncs-padding`
+* 10px (half default): `prncs-margin-half`, `prncs-padding-half`
+* 5px (quarter default): `prncs-margin-quarter`, `prncs-padding-quarter`
+
+## Left and right sides
+
+* 20px: `prncs-margin-sides`, `prncs-padding-sides`
+* 10px: `prncs-margin-sides-half`, `prncs-padding-sides-half`
+* 5px: `prncs-margin-sides-quarter`, `prncs-padding-sides-quarter`
+
+## Top and bottom
+
+* 20px: `prncs-margin-vertical`, `prncs-padding-vertical`
+* 10px: `prncs-margin-vertical-half`, `prncs-padding-vertical-half`
+* 5px: `prncs-margin-vertical-quarter`, `prncs-padding-vertical-quarter`
+
+## Top only
+
+* 20px: `prncs-margin-top`, `prncs-padding-top`
+* 10px: `prncs-margin-top-half`, `prncs-padding-top-half`
+* 5px: `prncs-margin-top-quarter`, `prncs-padding-top-quarter`
+
+## Bottom only
+
+* 20px: `prncs-margin-bottom`, `prncs-padding-bottom`
+* 10px: `prncs-margin-bottom-half`, `prncs-padding-bottom-half`
+* 5px: `prncs-margin-bottom-quarter`, `prncs-padding-bottom-quarter`
+
+## Left only
+
+* 20px: `prncs-margin-left`, `prncs-padding-left`
+* 10px: `prncs-margin-left-half`, `prncs-padding-left-half`
+* 5px: `prncs-margin-left-quarter`, `prncs-padding-left-quarter`
+
+## Right only
+
+* 20px: `prncs-margin-right`, `prncs-padding-right`
+* 10px: `prncs-margin-right-half`, `prncs-padding-right-half`
+* 5px: `prncs-margin-right-quarter`, `prncs-padding-right-quarter`

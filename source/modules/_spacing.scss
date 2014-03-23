@@ -1,0 +1,10 @@
+@mixin soloMargin($num) { margin: #{$num}px; }
+@mixin soloPadding($num) { padding: #{$num}px; }
+
+@mixin dualPadding($top, $sides) { padding: #{$top}px #{$sides}px; }
+@mixin dualMargin($top, $sides) { margin: #{$top}px #{$sides}px; }
+
+@mixin fullMargin($t, $l, $b, $r) { margin: #{$t}px #{$l}px #{$b}px
+  #{$r}px }
+@mixin fullPadding($t, $l, $b, $r) { padding: #{$t}px #{$l}px #{$b}px
+  #{$r}px }
